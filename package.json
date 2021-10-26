@@ -1,0 +1,56 @@
+{
+    "name": "graphlinq-vscode-theme",
+    "displayName": "GraphLinq Theme",
+    "description": "GraphLinq theme for VS Code",
+    "publisher": "GraphLinq",
+    "homepage": "https://graphlinq.io",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jrbgit/GraphLinq.GraphLinqTheme"
+    },
+    "author": {
+        "name": "John R. Bussiculo",
+        "email": "john.graphlinq@gmail.com",
+        "url": "https://www.jr00t.com"
+    },
+    "bugs": {
+        "url": "https://github.com/jrbgit/GraphLinq.GraphLinqTheme/issues"
+    },
+    "keywords": [
+        "theme",
+        "graphlinq",
+        "dark",
+        "light"
+    ],
+    "icon": "https://github.com/jrbgit/GraphLinq.GraphLinqTheme/blob/main/images/icon-logo-128.png",
+    "galleryBanner": {
+        "color": "#C80000",
+        "theme": "dark"
+    },
+    "private": true,
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "GraphLinq Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark.json"
+            },
+            {
+                "label": "GraphLinq Light",
+                "uiTheme": "vs",
+                "path": "./themes/light.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "vsce": "^1.100.2"
+    }
+}
