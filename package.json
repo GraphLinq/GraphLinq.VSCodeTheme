@@ -20,10 +20,9 @@
     "keywords": [
         "theme",
         "graphlinq",
-        "dark",
-        "light"
+        "dark"
     ],
-    "icon": "https://github.com/jrbgit/GraphLinq.VSCodeTheme/blob/main/images/icon-logo-128.png",
+    "icon": "https://github.com/jrbgit/GraphLinq.VSCodeTheme/blob/main/images/icon-logo-dark-128.png",
     "galleryBanner": {
         "color": "#C80000",
         "theme": "dark"
@@ -42,11 +41,6 @@
                 "label": "GraphLinq Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/dark.json"
-            },
-            {
-                "label": "GraphLinq Light",
-                "uiTheme": "vs",
-                "path": "./themes/light.json"
             }
         ]
     },

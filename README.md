@@ -1,4 +1,4 @@
-![GraphLinq Logo with Text](images/logo.svg)
+![GraphLinq Logo with Text](images/logo.png)
 
 >Automate & perform hundreds of actions based on events triggered on-chain & off-chain.
 
@@ -8,7 +8,7 @@ A theme for the no-code community when they code.
 
 ## Themes
 
-This package contains a dark and light theme based on the GraphLinq color scheme.
+This package contains a dark theme based on the GraphLinq color scheme.
 
 ## Contributors
 
