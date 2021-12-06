@@ -25,7 +25,7 @@
     ],
     "icon": "images/icon-logo-dark-128.png",
     "galleryBanner": {
-        "color": "#C80000",
+        "color": "#1b1734",
         "theme": "dark"
     },
     "private": true,
