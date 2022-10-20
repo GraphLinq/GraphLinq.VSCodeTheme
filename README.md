@@ -13,7 +13,9 @@ This package contains a dark theme based on the GraphLinq color scheme. To learn
 
 ## Screenshots
 
-Coming soon.
+![GraphLinq VS Code Screenshot](images/Screenshot-1.png)
+
+![GraphLinq VS Code Screenshot](images/Screenshot-2.png)
 
 ## Contributors
 
