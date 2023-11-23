@@ -1,9 +1,8 @@
-![GraphLinq Logo with Text](images/logo.png)
+![GraphLinq Chain Logo with Text](images/logo.png)
 
->The no-code protocol for
-building on the Blockchain. Automate & perform hundreds of actions based on events triggered on-chain & off-chain.
+>The no-code blockchain for Web3 Automation & dApps. Automate & perform over hundreds of actions based on events triggered on-chain & off-chain.
 
-# GraphLinq Theme for Visual Studio Code
+# GraphLinq Chain Theme for Visual Studio Code
 
 A theme for the no-code community for when they are forced to code.
 
@@ -12,6 +11,8 @@ A theme for the no-code community for when they are forced to code.
 This package contains a dark theme based on the GraphLinq color scheme. To learn more about GraphLinq visit [GraphLinq.io](https://graphlinq.io) and try our no-code IDE.
 
 ## Screenshots
+
+![GraphLinq VS Code Screenshot](images/Screenshot-3.gif)
 
 ![GraphLinq VS Code Screenshot](images/Screenshot-1.png)
 
