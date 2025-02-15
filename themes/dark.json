@@ -260,7 +260,7 @@
     "statusBar.noFolderBorder": "#131026",
     "statusBarItem.activeBackground": "#ff007a",
     "statusBarItem.hoverBackground": "#685b93",
-    "statusBarItem.prominentBackground": "#ece7fd",
+    "statusBarItem.prominentBackground": "#685b93",
     "statusBarItem.prominentHoverBackground": "#1c1836",
     "statusBarItem.remoteBackground": "#ff007a",
     "statusBarItem.remoteForeground": "#ece7fd",
