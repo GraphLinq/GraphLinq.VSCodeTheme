@@ -46,7 +46,7 @@
     "inputValidation.warningBackground": "#1c1836",
     "inputValidation.warningForeground": "#2f2955",
     "inputValidation.warningBorder": "#2f2955",
-    "scrollbar.shadow": "#ffffff",
+    "scrollbar.shadow": "#000000",
     "scrollbarSlider.activeBackground": "#ff007a",
     "scrollbarSlider.background": "#2f2955",
     "scrollbarSlider.hoverBackground": "#685b93",
@@ -139,17 +139,17 @@
     "editor.selectionBackground": "#5029e533",
     "editor.selectionForeground": "#ece7fd",
     "editor.inactiveSelectionBackground": "#5029e533",
-    "editor.selectionHighlightBackground": "#1c1836",
+    "editor.selectionHighlightBackground": "#685b9366",
     "editor.wordHighlightBackground": "#685b9333",
     "editor.wordHighlightStrongBackground": "#ff007a33",
-    "editor.findMatchBackground": "#fdfe543f",
-    "editor.findMatchHighlightBackground": "#fdfe5433",
+    "editor.findMatchBackground": "#fdfe5480",
+    "editor.findMatchHighlightBackground": "#fdfe5466",
     "editor.findRangeHighlightBackground": "#1c1836",
     "editor.hoverHighlightBackground": "#2f29557f",
     "editor.lineHighlightBackground": "#131026",
     "editor.lineHighlightBorder": "#131026",
     "editorLink.activeForeground": "#ece7fd",
-    "editor.rangeHighlightBackground": "#fdfe5433",
+    "editor.rangeHighlightBackground": "#685b9366",
     "editor.symbolHighlightBackground": "#685b9333",
     "editorWhitespace.foreground": "#1c1836",
     "editorIndentGuide.background": "#1c1836",
@@ -183,7 +183,7 @@
     "editorHint.foreground": "#ff007a",
     "editorHint.border": "#b4a5e7",
     "problemsErrorIcon.foreground": "#ff286f",
-    "problemsWarningIcon.foreground": "#2f2955",
+    "problemsWarningIcon.foreground": "#fdfe54",
     "problemsInfoIcon.foreground": "#5029e5",
     "editorUnnecessaryCode.opacity": "#0000007f",
     "editorGutter.background": "#131026",
@@ -578,6 +578,37 @@
       "scope": "markup.raw",
       "settings": {
         "foreground": "#ff007a"
+      }
+    },
+    {
+      "name": "Markup Bold",
+      "scope": "markup.bold",
+      "settings": {
+        "foreground": "#ece7fd",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markup Italic",
+      "scope": "markup.italic",
+      "settings": {
+        "foreground": "#b4a5e7",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markup Code",
+      "scope": "markup.inline.raw",
+      "settings": {
+        "foreground": "#05f24f"
+      }
+    },
+    {
+      "name": "Markdown Quote",
+      "scope": "markup.quote",
+      "settings": {
+        "foreground": "#685b93",
+        "fontStyle": "italic"
       }
     }
   ]
