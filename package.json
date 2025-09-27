@@ -45,7 +45,12 @@
             }
         ]
     },
+    "scripts": {
+        "package": "vsce package --no-yarn",
+        "publish": "vsce publish --no-yarn",
+        "install-local": "code --install-extension graphlinq-vscode-theme-0.1.1.vsix"
+    },
     "devDependencies": {
-        "vsce": "^1.100.2"
+        "@vscode/vsce": "^3.2.1"
     }
 }
