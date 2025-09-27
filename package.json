@@ -36,7 +36,7 @@
         "color": "#1b1734",
         "theme": "dark"
     },
-    "version": "0.2.0",
+    "version": "0.2.1",
     "engines": {
         "vscode": "^1.61.0"
     },
@@ -55,7 +55,7 @@
     "scripts": {
         "package": "vsce package --no-yarn",
         "publish": "vsce publish --no-yarn",
-        "install-local": "code --install-extension graphlinq-vscode-theme-0.2.0.vsix",
+        "install-local": "code --install-extension graphlinq-vscode-theme-0.2.1.vsix",
         "version:patch": "powershell -ExecutionPolicy Bypass -File ./scripts/bump-version.ps1 patch",
         "version:minor": "powershell -ExecutionPolicy Bypass -File ./scripts/bump-version.ps1 minor",
         "version:major": "powershell -ExecutionPolicy Bypass -File ./scripts/bump-version.ps1 major",

@@ -39,7 +39,7 @@ A premium, modern dark theme for Visual Studio Code featuring GraphLinq's distin
 ### Manual Installation
 Download the latest `.vsix` file from [GitHub Releases](https://github.com/GraphLinq/GraphLinq.VSCodeTheme/releases) and install via:
 ```bash
-code --install-extension graphlinq-vscode-theme-0.2.0.vsix
+code --install-extension graphlinq-vscode-theme-0.2.1.vsix
 ```
 
 ## 🎨 Color Palette
@@ -97,7 +97,13 @@ The theme now includes full support for VS Code's modern bracket colorization fe
 
 ## 🔄 Recent Updates
 
-### Version 0.2.0 (Latest) - Major Enhancements 🎆
+### Version 0.2.1 (Latest) - Polish & Fixes ✨
+- **📝 Documentation Enhancements**: Added visual color badges to bracket colorization levels
+- **🔧 Table Formatting Fix**: Fixed Warning Yellow table row alignment issue
+- **🎨 Visual Improvements**: Enhanced README presentation with color previews
+- **📄 Professional Polish**: Consistent styling across all documentation sections
+
+### Version 0.2.0 - Major Enhancements 🎆
 - **🎨 Modern Bracket Colorization**: Added full VS Code bracket colorization support with 6 distinct colors
 - **✨ Enhanced Language Support**: Comprehensive syntax highlighting for JavaScript, TypeScript, Python, HTML, CSS, JSON, and Git
 - **🔍 Improved Accessibility**: Better cursor visibility, enhanced warning colors, semantic color usage
