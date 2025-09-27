@@ -74,12 +74,12 @@ The theme uses GraphLinq's signature colors for a cohesive development experienc
 
 ### 🌈 Modern Bracket Colorization
 The theme now includes full support for VS Code's modern bracket colorization feature with a carefully curated 6-color palette:
-- **Level 1**: GraphLinq Pink (`#ff007a`)
-- **Level 2**: Primary Purple (`#5029e5`) 
-- **Level 3**: Success Green (`#05f24f`)
-- **Level 4**: Warning Yellow (`#fdfe54`)
-- **Level 5**: Light Purple (`#ece7fd`)
-- **Level 6**: Bright Pink (`#ff286f`)
+- **Level 1**: GraphLinq Pink (`#ff007a`) ![GraphLinq Pink](https://img.shields.io/badge/-ff007a?style=flat-square&color=ff007a)
+- **Level 2**: Primary Purple (`#5029e5`) ![Primary Purple](https://img.shields.io/badge/-5029e5?style=flat-square&color=5029e5)
+- **Level 3**: Success Green (`#05f24f`) ![Success Green](https://img.shields.io/badge/-05f24f?style=flat-square&color=05f24f)
+- **Level 4**: Warning Yellow (`#fdfe54`) ![Warning Yellow](https://img.shields.io/badge/-fdfe54?style=flat-square&color=fdfe54)
+- **Level 5**: Light Purple (`#ece7fd`) ![Light Purple](https://img.shields.io/badge/-ece7fd?style=flat-square&color=ece7fd)
+- **Level 6**: Bright Pink (`#ff286f`) ![Bright Pink](https://img.shields.io/badge/-ff286f?style=flat-square&color=ff286f)
 
 ### 🚀 Enhanced Language Support
 - **JavaScript/TypeScript**: Bold function names, distinct class highlighting
