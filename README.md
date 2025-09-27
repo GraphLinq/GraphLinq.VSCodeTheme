@@ -55,7 +55,7 @@ The theme uses GraphLinq's signature colors for a cohesive development experienc
 | **Background Mid** | `#1c1836` | ![Background Mid](https://img.shields.io/badge/-1c1836?style=flat-square&color=1c1836) |
 | **Foreground Light** | `#ece7fd` | ![Foreground Light](https://img.shields.io/badge/-ece7fd?style=flat-square&color=ece7fd) |
 | **Success Green** | `#05f24f` | ![Success Green](https://img.shields.io/badge/-05f24f?style=flat-square&color=05f24f) |
-|| **Warning Yellow** | `#fdfe54` | ![Warning Yellow](https://img.shields.io/badge/-fdfe54?style=flat-square&color=fdfe54) |
+| **Warning Yellow** | `#fdfe54` | ![Warning Yellow](https://img.shields.io/badge/-fdfe54?style=flat-square&color=fdfe54) |
 | **Secondary Purple** | `#685b93` | ![Secondary Purple](https://img.shields.io/badge/-685b93?style=flat-square&color=685b93) |
 | **Text Purple** | `#b4a5e7` | ![Text Purple](https://img.shields.io/badge/-b4a5e7?style=flat-square&color=b4a5e7) |
 
