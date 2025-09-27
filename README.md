@@ -37,7 +37,7 @@ A sleek, modern dark theme for Visual Studio Code featuring the distinctive Grap
 ### Manual Installation
 Download the latest `.vsix` file from [GitHub Releases](https://github.com/GraphLinq/GraphLinq.VSCodeTheme/releases) and install via:
 ```bash
-code --install-extension graphlinq-vscode-theme-0.1.2.vsix
+code --install-extension graphlinq-vscode-theme-0.1.3.vsix
 ```
 
 ## 🎨 Color Palette
@@ -68,7 +68,14 @@ The theme uses GraphLinq's signature colors for a cohesive development experienc
 
 ## 🔄 Recent Updates
 
-### Version 0.1.2 (Latest) - Critical Fixes
+### Version 0.1.3 (Latest) - Inline Code Fix
+- **🔥 Critical**: Fixed inline code (backtick) visibility in markdown preview
+- Changed inline code color from dark purple to bright green for readability
+- Improved code block background contrast
+- Added comprehensive markdown inline code highlighting with multiple scope coverage
+- Enhanced fenced code block styling
+
+### Version 0.1.2 - Critical Fixes
 - **🔥 Critical**: Fixed markdown highlighting visibility
 - **🔥 Critical**: Fixed warning icon colors for better visibility
 - Enhanced find/match highlighting with improved contrast
