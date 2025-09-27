@@ -9,16 +9,18 @@
 [![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/GraphLinq.graphlinq-vscode-theme?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=GraphLinq.graphlinq-vscode-theme)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/GraphLinq/GraphLinq.VSCodeTheme?style=for-the-badge&logo=github)](https://github.com/GraphLinq/GraphLinq.VSCodeTheme/releases)
 
-A sleek, modern dark theme for Visual Studio Code featuring the distinctive GraphLinq brand colors. Designed for developers in the no-code community who occasionally need to write code, this theme provides excellent readability and visual consistency across all programming languages.
+A premium, modern dark theme for Visual Studio Code featuring GraphLinq's distinctive brand colors and cutting-edge design elements. Crafted for blockchain developers, no-code enthusiasts, and anyone who appreciates beautiful, functional code themes. Features modern bracket colorization, enhanced language support, and optimized accessibility.
 
 ## ✨ Features
 
 - **🎨 GraphLinq Brand Colors**: Authentic color palette matching GraphLinq's visual identity
-- **👁️ Optimized Visibility**: Enhanced contrast for markdown, highlighting, and UI elements
-- **🔧 Complete Coverage**: 462 UI color definitions and comprehensive syntax highlighting
+- **🌈 Modern Bracket Colorization**: Full support for VS Code's bracket colorization with 6 distinct colors
+- **🚀 Enhanced Language Support**: Specialized highlighting for JavaScript, TypeScript, Python, HTML, CSS, JSON, and Git
+- **👁️ Optimized Accessibility**: High contrast ratios, improved cursor visibility, and semantic color usage
+- **🔧 Complete Coverage**: 500+ UI color definitions and comprehensive syntax highlighting
 - **📝 Markdown Ready**: Special highlighting for bold, italic, code blocks, and quotes
-- **⚡ Performance**: Lightweight theme with no performance impact
-- **🌙 Dark Theme**: Designed for comfortable coding in low-light environments
+- **⚡ Performance Optimized**: Lightweight theme with streamlined color definitions
+- **🌙 Premium Dark Theme**: Designed for comfortable coding in any lighting condition
 
 ## 🚀 Installation
 
@@ -37,7 +39,7 @@ A sleek, modern dark theme for Visual Studio Code featuring the distinctive Grap
 ### Manual Installation
 Download the latest `.vsix` file from [GitHub Releases](https://github.com/GraphLinq/GraphLinq.VSCodeTheme/releases) and install via:
 ```bash
-code --install-extension graphlinq-vscode-theme-0.1.3.vsix
+code --install-extension graphlinq-vscode-theme-0.2.0.vsix
 ```
 
 ## 🎨 Color Palette
@@ -53,7 +55,9 @@ The theme uses GraphLinq's signature colors for a cohesive development experienc
 | **Background Mid** | `#1c1836` | ![Background Mid](https://img.shields.io/badge/-1c1836?style=flat-square&color=1c1836) |
 | **Foreground Light** | `#ece7fd` | ![Foreground Light](https://img.shields.io/badge/-ece7fd?style=flat-square&color=ece7fd) |
 | **Success Green** | `#05f24f` | ![Success Green](https://img.shields.io/badge/-05f24f?style=flat-square&color=05f24f) |
-| **Warning Yellow** | `#fdfe54` | ![Warning Yellow](https://img.shields.io/badge/-fdfe54?style=flat-square&color=fdfe54) |
+|| **Warning Yellow** | `#fdfe54` | ![Warning Yellow](https://img.shields.io/badge/-fdfe54?style=flat-square&color=fdfe54) |
+| **Secondary Purple** | `#685b93` | ![Secondary Purple](https://img.shields.io/badge/-685b93?style=flat-square&color=685b93) |
+| **Text Purple** | `#b4a5e7` | ![Text Purple](https://img.shields.io/badge/-b4a5e7?style=flat-square&color=b4a5e7) |
 
 ## 📸 Screenshots
 
@@ -66,14 +70,39 @@ The theme uses GraphLinq's signature colors for a cohesive development experienc
 ### UI Integration
 ![GraphLinq VS Code Screenshot](images/Screenshot-2.png)
 
+## 🎆 New in v0.2.0
+
+### 🌈 Modern Bracket Colorization
+The theme now includes full support for VS Code's modern bracket colorization feature with a carefully curated 6-color palette:
+- **Level 1**: GraphLinq Pink (`#ff007a`)
+- **Level 2**: Primary Purple (`#5029e5`) 
+- **Level 3**: Success Green (`#05f24f`)
+- **Level 4**: Warning Yellow (`#fdfe54`)
+- **Level 5**: Light Purple (`#ece7fd`)
+- **Level 6**: Bright Pink (`#ff286f`)
+
+### 🚀 Enhanced Language Support
+- **JavaScript/TypeScript**: Bold function names, distinct class highlighting
+- **Python**: Special decorator styling with italics, bold class/function names
+- **HTML/JSX**: Bold tag names, distinct attribute highlighting
+- **CSS/SCSS**: Color-coded property names and values
+- **JSON**: Highlighted property names for better readability
+- **Git Diffs**: Enhanced visualization with background colors
+
+### 🎯 Accessibility Improvements
+- **High-visibility cursor** in GraphLinq pink
+- **Semantic warning colors** using proper yellow
+- **Enhanced bracket matching** with GraphLinq purple
+- **Consistent color meanings** across all UI elements
+
 ## 🔄 Recent Updates
 
-### Version 0.1.3 (Latest) - Inline Code Fix
-- **🔥 Critical**: Fixed inline code (backtick) visibility in markdown preview
-- Changed inline code color from dark purple to bright green for readability
-- Improved code block background contrast
-- Added comprehensive markdown inline code highlighting with multiple scope coverage
-- Enhanced fenced code block styling
+### Version 0.2.0 (Latest) - Major Enhancements 🎆
+- **🎨 Modern Bracket Colorization**: Added full VS Code bracket colorization support with 6 distinct colors
+- **✨ Enhanced Language Support**: Comprehensive syntax highlighting for JavaScript, TypeScript, Python, HTML, CSS, JSON, and Git
+- **🔍 Improved Accessibility**: Better cursor visibility, enhanced warning colors, semantic color usage
+- **🎯 Language-Specific Features**: Bold function names, italic decorators, distinct property highlighting
+- **⚡ Performance Optimized**: Streamlined color definitions and improved rendering
 
 ### Version 0.1.2 - Critical Fixes
 - **🔥 Critical**: Fixed markdown highlighting visibility

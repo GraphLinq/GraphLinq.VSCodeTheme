@@ -135,7 +135,7 @@
     "editorLineNumber.foreground": "#2f2955",
     "editorLineNumber.activeForeground": "#ff007a",
     "editorCursor.background": "#1b1734",
-    "editorCursor.foreground": "#685b93",
+    "editorCursor.foreground": "#ff007a",
     "editor.selectionBackground": "#5029e533",
     "editor.selectionForeground": "#ece7fd",
     "editor.inactiveSelectionBackground": "#5029e533",
@@ -158,8 +158,15 @@
     "editorCodeLens.foreground": "#685b93",
     "editorLightBulb.foreground": "#fdfe54",
     "editorLightBulbAutoFix.foreground": "#5029e5",
-    "editorBracketMatch.background": "#1c1836",
-    "editorBracketMatch.border": "#2f2955",
+    "editorBracketMatch.background": "#5029e533",
+    "editorBracketMatch.border": "#5029e5",
+    "editorBracketHighlight.foreground1": "#ff007a",
+    "editorBracketHighlight.foreground2": "#5029e5",
+    "editorBracketHighlight.foreground3": "#05f24f",
+    "editorBracketHighlight.foreground4": "#fdfe54",
+    "editorBracketHighlight.foreground5": "#ece7fd",
+    "editorBracketHighlight.foreground6": "#ff286f",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#ff286f",
     "editor.foldBackground": "#1c183666",
     "editorOverviewRuler.border": "#1c1836",
     "editorOverviewRuler.findMatchForeground": "#fdfe54bf",
@@ -176,8 +183,8 @@
     "editorOverviewRuler.bracketMatchForeground": "#ece7fd",
     "editorError.foreground": "#ff286f",
     "editorError.border": "#ece7fd",
-    "editorWarning.foreground": "#2f2955",
-    "editorWarning.border": "#ede8fd",
+    "editorWarning.foreground": "#fdfe54",
+    "editorWarning.border": "#fdfe54",
     "editorInfo.foreground": "#ec02f4",
     "editorInfo.border": "#2f2955",
     "editorHint.foreground": "#ff007a",
@@ -632,6 +639,136 @@
       "settings": {
         "foreground": "#ece7fd",
         "background": "#1c1836"
+      }
+    },
+    {
+      "name": "JavaScript/TypeScript - Function Names",
+      "scope": [
+        "entity.name.function.js",
+        "entity.name.function.ts",
+        "support.function.js",
+        "support.function.ts"
+      ],
+      "settings": {
+        "foreground": "#ff007a",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "JavaScript/TypeScript - Classes",
+      "scope": [
+        "entity.name.type.class.js",
+        "entity.name.type.class.ts",
+        "entity.name.class.js",
+        "entity.name.class.ts"
+      ],
+      "settings": {
+        "foreground": "#5029e5",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "JSON - Property Names",
+      "scope": [
+        "support.type.property-name.json",
+        "string.quoted.double.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#ff007a"
+      }
+    },
+    {
+      "name": "CSS - Property Names",
+      "scope": [
+        "support.type.property-name.css",
+        "support.type.property-name.scss"
+      ],
+      "settings": {
+        "foreground": "#5029e5"
+      }
+    },
+    {
+      "name": "CSS - Property Values",
+      "scope": [
+        "support.constant.property-value.css",
+        "support.constant.property-value.scss"
+      ],
+      "settings": {
+        "foreground": "#05f24f"
+      }
+    },
+    {
+      "name": "HTML - Tag Names",
+      "scope": [
+        "entity.name.tag.html",
+        "entity.name.tag.jsx",
+        "entity.name.tag.tsx"
+      ],
+      "settings": {
+        "foreground": "#ff286f",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "HTML - Attributes",
+      "scope": [
+        "entity.other.attribute-name.html",
+        "entity.other.attribute-name.jsx",
+        "entity.other.attribute-name.tsx"
+      ],
+      "settings": {
+        "foreground": "#5029e5"
+      }
+    },
+    {
+      "name": "Python - Function Definitions",
+      "scope": [
+        "entity.name.function.python",
+        "support.function.builtin.python"
+      ],
+      "settings": {
+        "foreground": "#ff007a",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Python - Class Names",
+      "scope": "entity.name.type.class.python",
+      "settings": {
+        "foreground": "#5029e5",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Python - Decorators",
+      "scope": "entity.name.function.decorator.python",
+      "settings": {
+        "foreground": "#fdfe54",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Git - Inserted",
+      "scope": "markup.inserted.diff",
+      "settings": {
+        "foreground": "#05f24f",
+        "background": "#05f24f20"
+      }
+    },
+    {
+      "name": "Git - Deleted",
+      "scope": "markup.deleted.diff",
+      "settings": {
+        "foreground": "#ff286f",
+        "background": "#ff286f20"
+      }
+    },
+    {
+      "name": "Git - Changed",
+      "scope": "markup.changed.diff",
+      "settings": {
+        "foreground": "#fdfe54",
+        "background": "#fdfe5420"
       }
     }
   ]

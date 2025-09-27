@@ -1,7 +1,7 @@
 {
     "name": "graphlinq-vscode-theme",
     "displayName": "GraphLinq Theme",
-    "description": "GraphLinq theme for VS Code",
+    "description": "A sleek, modern dark theme featuring GraphLinq's signature colors. Perfect for blockchain developers and no-code enthusiasts with enhanced syntax highlighting, bracket colorization, and optimized readability.",
     "publisher": "GraphLinq",
     "homepage": "https://graphlinq.io",
     "license": "MIT",
@@ -21,14 +21,22 @@
         "theme",
         "graphlinq",
         "dark",
-        "no-code"
+        "no-code",
+        "blockchain",
+        "web3",
+        "purple",
+        "pink",
+        "modern",
+        "sleek",
+        "bracket-colorization",
+        "syntax-highlighting"
     ],
     "icon": "images/icon-logo-dark-128.png",
     "galleryBanner": {
         "color": "#1b1734",
         "theme": "dark"
     },
-    "version": "0.1.3",
+    "version": "0.2.0",
     "engines": {
         "vscode": "^1.61.0"
     },
@@ -47,7 +55,7 @@
     "scripts": {
         "package": "vsce package --no-yarn",
         "publish": "vsce publish --no-yarn",
-        "install-local": "code --install-extension graphlinq-vscode-theme-0.1.3.vsix",
+        "install-local": "code --install-extension graphlinq-vscode-theme-0.2.0.vsix",
         "version:patch": "powershell -ExecutionPolicy Bypass -File ./scripts/bump-version.ps1 patch",
         "version:minor": "powershell -ExecutionPolicy Bypass -File ./scripts/bump-version.ps1 minor",
         "version:major": "powershell -ExecutionPolicy Bypass -File ./scripts/bump-version.ps1 major",

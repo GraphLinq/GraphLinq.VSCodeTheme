@@ -4,6 +4,29 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.0] - 2025-09-27
+### Major Enhancements
+- **🎨 Modern Bracket Colorization**: Added full support for VS Code's bracket colorization with 6 distinct colors
+- **✨ Enhanced Language Support**: Comprehensive syntax highlighting for JavaScript, TypeScript, Python, HTML, CSS, JSON, and Git diffs
+- **🔍 Improved Accessibility**: Better cursor visibility with GraphLinq pink, enhanced warning colors
+- **🎯 Semantic Color Usage**: Consistent color meanings across all UI elements
+- **⚡ Performance Optimized**: Streamlined color definitions and improved rendering
+
+### Added
+- Modern bracket colorization with GraphLinq color scheme
+- Language-specific function and class highlighting with bold styling
+- Enhanced Git diff visualization with background colors
+- Python decorator highlighting with italic styling
+- JSON property name highlighting
+- CSS property and value distinction
+- HTML tag and attribute styling
+
+### Improved
+- Cursor visibility changed to bright pink (#ff007a)
+- Warning colors now use proper yellow (#fdfe54) for better visibility
+- Bracket matching with GraphLinq primary purple
+- Enhanced package metadata and keywords for better discoverability
+
 ## [0.1.3] - 2025-09-27
 ### Fixed
 - **Critical**: Fixed inline code (backtick) visibility in markdown preview - changed from dark purple to bright green
