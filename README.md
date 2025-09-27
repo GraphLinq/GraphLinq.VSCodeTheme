@@ -44,16 +44,16 @@ code --install-extension graphlinq-vscode-theme-0.1.3.vsix
 
 The theme uses GraphLinq's signature colors for a cohesive development experience:
 
-| Element | Color | Hex Code |
-|---------|-------|----------|
-| Primary Purple | ![#5029e5](https://via.placeholder.com/15/5029e5/000000?text=+) | `#5029e5` |
-| Accent Pink | ![#ff007a](https://via.placeholder.com/15/ff007a/000000?text=+) | `#ff007a` |
-| Bright Pink | ![#ff286f](https://via.placeholder.com/15/ff286f/000000?text=+) | `#ff286f` |
-| Background Dark | ![#131026](https://via.placeholder.com/15/131026/000000?text=+) | `#131026` |
-| Background Mid | ![#1c1836](https://via.placeholder.com/15/1c1836/000000?text=+) | `#1c1836` |
-| Foreground Light | ![#ece7fd](https://via.placeholder.com/15/ece7fd/000000?text=+) | `#ece7fd` |
-| Success Green | ![#05f24f](https://via.placeholder.com/15/05f24f/000000?text=+) | `#05f24f` |
-| Warning Yellow | ![#fdfe54](https://via.placeholder.com/15/fdfe54/000000?text=+) | `#fdfe54` |
+| Element | Hex Code | Preview |
+|---------|----------|----------|
+| **Primary Purple** | `#5029e5` | ![Primary Purple](https://img.shields.io/badge/-5029e5?style=flat-square&color=5029e5) |
+| **Accent Pink** | `#ff007a` | ![Accent Pink](https://img.shields.io/badge/-ff007a?style=flat-square&color=ff007a) |
+| **Bright Pink** | `#ff286f` | ![Bright Pink](https://img.shields.io/badge/-ff286f?style=flat-square&color=ff286f) |
+| **Background Dark** | `#131026` | ![Background Dark](https://img.shields.io/badge/-131026?style=flat-square&color=131026) |
+| **Background Mid** | `#1c1836` | ![Background Mid](https://img.shields.io/badge/-1c1836?style=flat-square&color=1c1836) |
+| **Foreground Light** | `#ece7fd` | ![Foreground Light](https://img.shields.io/badge/-ece7fd?style=flat-square&color=ece7fd) |
+| **Success Green** | `#05f24f` | ![Success Green](https://img.shields.io/badge/-05f24f?style=flat-square&color=05f24f) |
+| **Warning Yellow** | `#fdfe54` | ![Warning Yellow](https://img.shields.io/badge/-fdfe54?style=flat-square&color=fdfe54) |
 
 ## 📸 Screenshots
 
