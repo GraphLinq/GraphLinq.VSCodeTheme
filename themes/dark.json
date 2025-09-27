@@ -12,10 +12,10 @@
     "sash.hoverBorder": "#5029e5",
     "textBlockQuote.background": "#1c1836",
     "textBlockQuote.border": "#1c1836",
-    "textCodeBlock.background": "#131026",
+    "textCodeBlock.background": "#1c1836",
     "textLink.activeForeground": "#ff286f",
     "textLink.foreground": "#5029e5",
-    "textPreformat.foreground": "#2f2955",
+    "textPreformat.foreground": "#05f24f",
     "textSeparator.foreground": "#b4a5e7",
     "button.background": "#685b93",
     "button.foreground": "#ece7fd",
@@ -609,6 +609,29 @@
       "settings": {
         "foreground": "#685b93",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markdown Inline Code",
+      "scope": [
+        "markup.inline.raw.string.markdown",
+        "markup.inline.raw.markdown",
+        "markup.raw.inline.markdown"
+      ],
+      "settings": {
+        "foreground": "#05f24f",
+        "background": "#1c183680"
+      }
+    },
+    {
+      "name": "Markdown Code Block",
+      "scope": [
+        "markup.fenced_code.block.markdown",
+        "markup.raw.block.markdown"
+      ],
+      "settings": {
+        "foreground": "#ece7fd",
+        "background": "#1c1836"
       }
     }
   ]

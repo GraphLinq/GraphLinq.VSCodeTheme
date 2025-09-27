@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.3] - 2025-09-27
+### Fixed
+- **Critical**: Fixed inline code (backtick) visibility in markdown preview - changed from dark purple to bright green
+- Improved code block background contrast for better readability
+- Added comprehensive markdown inline code highlighting with multiple scope coverage
+- Enhanced fenced code block styling
+
 ## [0.1.2] - 2025-09-27
 ### Fixed
 - **Critical**: Fixed markdown highlighting visibility - selection highlights are now clearly visible
