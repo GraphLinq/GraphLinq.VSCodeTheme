@@ -78,6 +78,22 @@ npx @vscode/vsce login GraphLinq
 
 # Publish current version
 npm run publish
+
+# Create GitHub release manually
+gh release create v0.1.3 --title "Release v0.1.3" --notes "Release notes here" --verify-tag
+gh release upload v0.1.3 graphlinq-vscode-theme-0.1.3.vsix
+```
+
+### GitHub Releases
+```powershell
+# List releases
+gh release list
+
+# View specific release
+gh release view v0.1.2
+
+# Authentication (one-time setup)
+gh auth login
 ```
 
 ## Theme Development Workflow
@@ -104,6 +120,7 @@ When modifying colors, maintain consistency with GraphLinq brand:
 2. **Azure DevOps**: Create organization if needed
 3. **Publisher Account**: Create publisher "GraphLinq" if not exists
 4. **Personal Access Token**: Generate with Marketplace (publish) scope
+5. **GitHub CLI**: Install with `winget install GitHub.cli` for automatic releases
 
 ### Authentication Setup
 ```powershell

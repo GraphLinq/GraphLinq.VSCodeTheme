@@ -44,6 +44,29 @@ git tag "v$newVersion"
 Write-Host "`n5️⃣ Pushing to GitHub..." -ForegroundColor Cyan
 git push origin main --tags
 
+# Step 5.5: Create GitHub Release
+Write-Host "`n5️⃣➕ Creating GitHub Release..." -ForegroundColor Cyan
+$releaseNotes = @"
+## Changes in v$newVersion
+
+Please check the CHANGELOG.md file for detailed release notes.
+
+## VS Code Marketplace
+This version is also available on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=GraphLinq.graphlinq-vscode-theme)
+"@
+
+try {
+    & gh release create "v$newVersion" --title "Release v$newVersion" --notes $releaseNotes --verify-tag
+    if (Test-Path "graphlinq-vscode-theme-$newVersion.vsix") {
+        & gh release upload "v$newVersion" "graphlinq-vscode-theme-$newVersion.vsix"
+        Write-Host "✅ GitHub release created with .vsix attachment" -ForegroundColor Green
+    } else {
+        Write-Host "✅ GitHub release created" -ForegroundColor Green
+    }
+} catch {
+    Write-Warning "⚠️ Failed to create GitHub release. You may need to install GitHub CLI: winget install GitHub.cli"
+}
+
 # Step 6: Publish (optional)
 if (-not $SkipPublish) {
     Write-Host "`n6️⃣ Publishing to marketplace..." -ForegroundColor Cyan
