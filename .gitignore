@@ -1,3 +1,9 @@
-node_modules
+node_modules/
 *.vsix
 .DS_Store
+package-lock.json
+
+# Keep scripts directory for development
+!scripts/
+scripts/*.log
+scripts/temp/

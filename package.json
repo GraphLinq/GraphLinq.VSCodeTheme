@@ -48,7 +48,14 @@
     "scripts": {
         "package": "vsce package --no-yarn",
         "publish": "vsce publish --no-yarn",
-        "install-local": "code --install-extension graphlinq-vscode-theme-0.1.1.vsix"
+        "install-local": "code --install-extension graphlinq-vscode-theme-0.1.1.vsix",
+        "version:patch": "powershell -ExecutionPolicy Bypass -File ./scripts/bump-version.ps1 patch",
+        "version:minor": "powershell -ExecutionPolicy Bypass -File ./scripts/bump-version.ps1 minor",
+        "version:major": "powershell -ExecutionPolicy Bypass -File ./scripts/bump-version.ps1 major",
+        "release:patch": "powershell -ExecutionPolicy Bypass -File ./scripts/release.ps1 patch",
+        "release:minor": "powershell -ExecutionPolicy Bypass -File ./scripts/release.ps1 minor",
+        "release:major": "powershell -ExecutionPolicy Bypass -File ./scripts/release.ps1 major",
+        "test-local": "npm run package && npm run install-local"
     },
     "devDependencies": {
         "@vscode/vsce": "^3.2.1"
